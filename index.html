@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TDrone — הדור החדש של ניקיון בגבהים</title>
+<meta name="description" content="ניקוי מקצועי ובטוח באמצעות רחפנים מתקדמים. פתרון חדשני לניקוי מבנים, חזיתות ומערכות סולאריות בגובה.">
+<link rel="icon" href="615507_8aacdd92c97d438d9c18b17c92fcbc57~mv2.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<!-- ===================== Global utility navigation ===================== -->
+<div class="globalbar">
+  <div class="wrap">
+    <div class="globalbar-credentials">
+      <span>אישורי רת״א</span><span class="dot"></span>
+      <span>הסמכת יצרן</span><span class="dot"></span>
+      <span>ביטוח אווירי</span>
+    </div>
+    <div class="globalbar-contact">
+      <a href="tel:0506922729">050-6922-729</a>
+      <a href="mailto:doron@tdron.co.il">doron@tdron.co.il</a>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== Product local navigation ===================== -->
+<header class="localnav">
+  <div class="wrap">
+    <a class="localnav-brand" href="#top">
+      <img src="615507_8aacdd92c97d438d9c18b17c92fcbc57~mv2.png" alt="TDrone">
+      <span class="sr-only">TDrone</span>
+    </a>
+
+    <nav aria-label="ניווט ראשי">
+      <ul class="localnav-links">
+        <li><a href="#services">שירותי ניקוי</a></li>
+        <li><a href="#why">למה טידרון</a></li>
+        <li><a href="#process">תהליך העבודה</a></li>
+        <li><a href="https://www.tdrone.co.il/partnerships">שותפים</a></li>
+        <li><a href="https://www.tdrone.co.il/knowledge">מרכז ידע</a></li>
+        <li><a href="https://www.tdrone.co.il/about">אודות</a></li>
+      </ul>
+    </nav>
+
+    <div class="localnav-actions">
+      <a class="pill pill--outline" href="#checklist">מה חשוב לבדוק?</a>
+      <a class="pill pill--blue" href="#contact">קבלו הצעת מחיר</a>
+      <button class="navtoggle" id="navtoggle" aria-label="פתיחת תפריט" aria-expanded="false">
+        <svg width="20" height="14" viewBox="0 0 20 14" fill="none" aria-hidden="true">
+          <path d="M0 1h20M0 7h20M0 13h20" stroke="currentColor" stroke-width="1.4"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile drawer -->
+<div class="drawer" id="drawer">
+  <div class="drawer-top">
+    <img src="615507_8aacdd92c97d438d9c18b17c92fcbc57~mv2.png" alt="TDrone" style="height:22px">
+    <button class="navtoggle" id="drawerclose" aria-label="סגירת תפריט" style="display:inline-flex">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+        <path d="M1 1l16 16M17 1L1 17" stroke="currentColor" stroke-width="1.4"/>
+      </svg>
+    </button>
+  </div>
+  <a class="drawer-link" href="#services">שירותי ניקוי</a>
+  <a class="drawer-link" href="#why">למה טידרון</a>
+  <a class="drawer-link" href="#process">תהליך העבודה</a>
+  <a class="drawer-link" href="https://www.tdrone.co.il/partnerships">שותפים</a>
+  <a class="drawer-link" href="https://www.tdrone.co.il/knowledge">מרכז ידע</a>
+  <a class="drawer-link" href="https://www.tdrone.co.il/about">אודות</a>
+  <a class="drawer-link" href="#contact">צור קשר</a>
+  <a class="pill pill--blue pill--lg" href="#contact">קבלו הצעת מחיר</a>
+</div>
+
+<main id="top">
+
+  <!-- ===================== Hero product stage ===================== -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-head">
+        <p class="kicker">TDrone</p>
+        <h1 class="display">הדור החדש של<br>ניקיון בגבהים</h1>
+        <p class="hero-copy">ניקוי מקצועי ובטוח באמצעות רחפנים מתקדמים. פתרון חדשני לניקוי מבנים, חזיתות ומערכות סולאריות בגובה.</p>
+        <div class="hero-actions">
+          <a class="pill pill--blue pill--lg" href="#contact">קבלו הצעת מחיר</a>
+          <a class="pill pill--outline pill--lg" href="https://www.tdrone.co.il/partnerships">הצטרפו כשותפים</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap wrap--wide">
+      <div class="hero-stage reveal">
+        <div class="hero-media">
+          <video id="herovideo" src="file.mp4" poster="service-buildings.avif" autoplay muted loop playsinline></video>
+          <button class="media-toggle" id="videotoggle" aria-label="השהיית וידאו רקע">
+            <svg width="10" height="12" viewBox="0 0 10 12" fill="currentColor" aria-hidden="true" id="videoicon">
+              <rect x="0" y="0" width="3" height="12" rx="1"></rect>
+              <rect x="7" y="0" width="3" height="12" rx="1"></rect>
+            </svg>
+          </button>
+        </div>
+
+        <div class="floating-callout">
+          <span class="cert">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M7 1l1.7 3.5 3.8.5-2.8 2.7.7 3.8L7 9.7 3.6 11.5l.7-3.8L1.5 5l3.8-.5L7 1z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+            אישורי רת״א
+          </span>
+          <span class="divider"></span>
+          <span class="cert">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M7 1l5 2v4c0 3-2.1 5.3-5 6-2.9-.7-5-3-5-6V3l5-2z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+            הסמכת יצרן
+          </span>
+          <span class="divider"></span>
+          <span class="cert">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M1.5 7h11M7 1.5v11" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><circle cx="7" cy="7" r="5.5" stroke="currentColor" stroke-width="1.2"/></svg>
+            ביטוח אווירי
+          </span>
+          <span class="divider"></span>
+          <a class="link-blue body--small" href="#services" style="font-size:14px">
+            לצפייה בפרויקטים מהשטח
+            <svg class="chev" width="6" height="10" viewBox="0 0 6 10" fill="none" aria-hidden="true"><path d="M5 1L1 5l4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="trustline">
+      <div class="trustline-track">
+        <span>ניקוי חזיתות זכוכית</span><span>שטיפת פאנלים סולאריים</span><span>מתקני תעשייה ותשתיות</span><span>עבודה ללא פיגומים</span><span>תיעוד מלא של הביצוע</span><span>ביטוח צד ג׳ אווירי</span>
+        <span>ניקוי חזיתות זכוכית</span><span>שטיפת פאנלים סולאריים</span><span>מתקני תעשייה ותשתיות</span><span>עבודה ללא פיגומים</span><span>תיעוד מלא של הביצוע</span><span>ביטוח צד ג׳ אווירי</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Services — highlights stage ===================== -->
+  <section class="section section--mist" id="services">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="sh-text">
+          <h2 class="feature-heading">השירותים שלנו</h2>
+          <p class="body">שלושה מתארי עבודה, אותה שיטה: רחפן ייעודי, צוות מוסמך ותיעוד מלא — בלי פיגומים ובלי עבודה מסוכנת בגובה.</p>
+        </div>
+        <a class="link-blue" href="https://www.tdrone.co.il/services#Portfolio">
+          לצפייה בפרויקטים מהשטח
+          <svg class="chev" width="6" height="10" viewBox="0 0 6 10" fill="none" aria-hidden="true"><path d="M5 1L1 5l4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card-media"><img src="service-industrial.avif" alt="רחפן TDrone שוטף גג מתקן תעשייתי" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="sub-heading">תעשייה ותשתיות</h3>
+            <p class="body">פתרונות ניקוי למבנים, מתקנים ותשתיות שבהם הגישה מורכבת, יקרה או מסוכנת.</p>
+            <a class="link-blue" href="#contact">בדיקת התכנות לאתר שלכם
+              <svg class="chev" width="6" height="10" viewBox="0 0 6 10" fill="none" aria-hidden="true"><path d="M5 1L1 5l4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-media"><img src="service-solar.avif" alt="רחפן TDrone שוטף מערך פאנלים סולאריים" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="sub-heading">מערכות אנרגיה מתחדשת</h3>
+            <p class="body">ניקוי פנלים סולריים, טורבינות רוח ומערכות אנרגיה גדולות ביעילות ובבטיחות.</p>
+            <a class="link-blue" href="#contact">בדיקת התכנות לאתר שלכם
+              <svg class="chev" width="6" height="10" viewBox="0 0 6 10" fill="none" aria-hidden="true"><path d="M5 1L1 5l4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-media"><img src="service-buildings.avif" alt="צוות TDrone מנקה חזית זכוכית של מבנה משרדים" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="sub-heading">מבנים / חזיתות / חלונות</h3>
+            <p class="body">ניקוי מקצועי של חלונות, קירות, מבנים חיצוניים, פינות ומשטחים גדולים של מבנים.</p>
+            <a class="link-blue" href="#contact">בדיקת התכנות לאתר שלכם
+              <svg class="chev" width="6" height="10" viewBox="0 0 6 10" fill="none" aria-hidden="true"><path d="M5 1L1 5l4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Why TDrone ===================== -->
+  <section class="section" id="why">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="sh-text">
+          <h2 class="feature-heading">מדוע TDrone?</h2>
+        </div>
+        <a class="link-blue" href="https://www.tdrone.co.il/why">
+          מה חשוב לבדוק לפני שמזמינים?
+          <svg class="chev" width="6" height="10" viewBox="0 0 6 10" fill="none" aria-hidden="true"><path d="M5 1L1 5l4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+
+      <div class="pillars">
+        <div class="pillar reveal">
+          <span class="pillar-glyph">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 1.5l7 3v5c0 4.3-3 7.7-7 9-4-1.3-7-4.7-7-9v-5l7-3z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M7 10l2.2 2.2L13.5 8" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3 class="sub-heading">בטיחות</h3>
+          <p class="body">הפחתת הצורך בעבודה מסוכנת בגובה.</p>
+        </div>
+
+        <div class="pillar reveal">
+          <span class="pillar-glyph">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M11 1.5L4 11h5l-1 7.5L16 9h-5l1-7.5z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
+          </span>
+          <h3 class="sub-heading">מהירות</h3>
+          <p class="body">פחות ציוד, פחות הפרעה לפעילות באתר.</p>
+        </div>
+
+        <div class="pillar reveal">
+          <span class="pillar-glyph">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="2.5" y="2.5" width="15" height="15" rx="4" stroke="currentColor" stroke-width="1.3"/><path d="M6.5 10.2l2.4 2.4 4.6-5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3 class="sub-heading">מקצועיות</h3>
+          <p class="body">פעילות בהתאם לאישורי רת״א הנדרשים.</p>
+        </div>
+
+        <div class="pillar reveal">
+          <span class="pillar-glyph">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 6.5l7-3.5 7 3.5v4c0 4-3 6.8-7 8-4-1.2-7-4-7-8v-4z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M10 7.2v5.6M7.2 10h5.6" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+          </span>
+          <h3 class="sub-heading">ביטוח</h3>
+          <p class="body">כיסוי ביטוחי מקצועי המותאם לפעילות רחפנים.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Process ===================== -->
+  <section class="section section--mist" id="process">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="sh-text">
+          <h2 class="feature-heading">תהליך העבודה עם TDrone</h2>
+          <p class="body">מחמישה שלבים ברורים — מהנתונים הראשוניים ועד תיעוד הביצוע.</p>
+        </div>
+      </div>
+
+      <div class="steps">
+        <div class="step reveal">
+          <span class="step-num">1</span>
+          <h3 class="sub-heading">הכנה ונתונים</h3>
+          <p class="body">השלמת פרטי האתר, בדיקת הגישה והצורך בסיוע טכנולוגי.</p>
+        </div>
+        <div class="step reveal">
+          <span class="step-num">2</span>
+          <h3 class="sub-heading">בדיקת סיכונים</h3>
+          <p class="body">בחינת תנאי השטח, סביבת העבודה והדרישות התפעוליות.</p>
+        </div>
+        <div class="step reveal">
+          <span class="step-num">3</span>
+          <h3 class="sub-heading">הצעת מחיר</h3>
+          <p class="body">קבלת הצעת מחיר לאחר בדיקת האתר והסיכונים.</p>
+        </div>
+        <div class="step reveal">
+          <span class="step-num">4</span>
+          <h3 class="sub-heading">תכנון ואישור</h3>
+          <p class="body">התאמת הרחפן, הציוד, שיטת העבודה והאישורים הנדרשים.</p>
+        </div>
+        <div class="step reveal">
+          <span class="step-num">5</span>
+          <h3 class="sub-heading">ביצוע ותיעוד</h3>
+          <p class="body">ביצוע העבודה בהתאם לתכנון ולדרישות הבטיחות.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Editorial — checklist ===================== -->
+  <section class="section" id="checklist">
+    <div class="wrap">
+      <div class="editorial">
+        <div class="editorial-text reveal">
+          <p class="launch-label">צ'ק ליסט למזמין העבודה</p>
+          <h2 class="feature-heading">המחיר הוא לא השאלה היחידה</h2>
+          <p class="body">לא כל אישורי רת״א מתירים הטסה במתאר שטיפה בסביבה אורבנית. ביטוח צד ג' כשלעצמו אינו בהכרח מכסה את מזמין העבודה. רוצים ללמוד איך לנהל את הסיכון בתבונה?</p>
+
+          <ul class="checklist">
+            <li>
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2.5 7.4l3 3 6-7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              אילו אישורי רת״א קיימים למפעיל — ולמתאר שטיפה בפרט
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2.5 7.4l3 3 6-7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              האם הפוליסה מכסה גם את מזמין העבודה
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2.5 7.4l3 3 6-7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              מי אחראי על סקר הסיכונים ועל תיעוד הביצוע
+            </li>
+          </ul>
+
+          <p class="body body--small">עוד בנושא ב<a class="link-blue" href="https://www.tdrone.co.il/knowledge" style="font-size:14px">דף מרכז המידע</a> שלנו</p>
+
+          <div class="editorial-actions">
+            <a class="pill pill--blue pill--lg" href="https://www.tdrone.co.il/why">מה חשוב לבדוק לפני שמזמינים?</a>
+            <a class="pill pill--outline pill--lg" href="https://www.tdrone.co.il/knowledge">צ'ק ליסט למזמין העבודה</a>
+          </div>
+        </div>
+
+        <div class="editorial-media reveal">
+          <img src="P1066156_JPG.avif" alt="תקריב של מיכל השטיפה על רחפן TDrone" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== Contact ===================== -->
+  <section class="section section--mist" id="contact">
+    <div class="wrap">
+      <div class="contact-grid">
+        <aside class="contact-aside reveal">
+          <h2 class="feature-heading">צור קשר</h2>
+          <p class="body">רוצים לבדוק אם ניקוי באמצעות רחפן מתאים לפרויקט שלכם? שלחו לנו מספר פרטים ונבצע בדיקת התכנות ראשונית.</p>
+          <div class="contact-lines">
+            <a href="tel:0506922729">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2.5 3.5c0-.6.4-1 1-1h2l1 3-1.6 1a9 9 0 004.6 4.6l1-1.6 3 1v2c0 .6-.4 1-1 1A11.5 11.5 0 012.5 3.5z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+              050-6922-729
+            </a>
+            <a href="mailto:doron@tdron.co.il">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="1.5" y="3.5" width="13" height="9" rx="2" stroke="currentColor" stroke-width="1.2"/><path d="M2 5l6 4 6-4" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+              doron@tdron.co.il
+            </a>
+          </div>
+          <div class="contact-aside-media">
+            <img src="P1066156_JPG.avif" alt="רחפן השטיפה של TDrone" loading="lazy">
+          </div>
+        </aside>
+
+        <div class="form-card reveal">
+          <form class="form-grid" id="quoteform" novalidate>
+            <div class="field">
+              <label for="fullname">שם ושם משפחה<span class="req">*</span></label>
+              <input id="fullname" name="fullname" type="text" required placeholder="ישראל ישראלי">
+            </div>
+            <div class="field">
+              <label for="company">שם החברה<span class="req">*</span></label>
+              <input id="company" name="company" type="text" required placeholder="שם החברה">
+            </div>
+            <div class="field">
+              <label for="phone">טלפון<span class="req">*</span></label>
+              <input id="phone" name="phone" type="tel" required placeholder="050-0000000">
+            </div>
+            <div class="field">
+              <label for="email">דואר אלקטרוני<span class="req">*</span></label>
+              <input id="email" name="email" type="email" required placeholder="name@company.co.il">
+            </div>
+
+            <div class="field field--full">
+              <label>סוג הנכס / מתקן לניקוי<span class="req">*</span></label>
+              <div class="choices">
+                <label class="choice"><input type="radio" name="assettype" value="מבנה / חזית / חלונות" checked><span>מבנה / חזית / חלונות</span></label>
+                <label class="choice"><input type="radio" name="assettype" value="מערכת אנרגיה מתחדשת"><span>מערכת אנרגיה מתחדשת</span></label>
+                <label class="choice"><input type="radio" name="assettype" value="תעשייה / תשתית"><span>תעשייה / תשתית</span></label>
+                <label class="choice"><input type="radio" name="assettype" value="אחר"><span>אחר</span></label>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="height">גובה משוער לשטיפה (במטרים)</label>
+              <input id="height" name="height" type="number" min="0" placeholder="לדוגמה: 24">
+            </div>
+            <div class="field">
+              <label for="city">עיר</label>
+              <input id="city" name="city" type="text" placeholder="עיר">
+            </div>
+
+            <div class="field field--full">
+              <label for="notes">פרטים נוספים שעלינו לדעת</label>
+              <textarea id="notes" name="notes" rows="4" placeholder="גישה לאתר, לוחות זמנים, דרישות מיוחדות…"></textarea>
+            </div>
+
+            <div class="form-footer">
+              <p class="form-note">הפרטים נשמרים לצורך בדיקת התכנות בלבד.</p>
+              <button class="pill pill--blue pill--lg" type="submit">שלח טופס</button>
+            </div>
+
+            <p class="form-success" id="formsuccess">תודה — הפרטים התקבלו. נחזור אליכם לבדיקת התכנות ראשונית.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== Footer ===================== -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="615507_8aacdd92c97d438d9c18b17c92fcbc57~mv2.png" alt="TDrone">
+        <p class="body body--small">ניקוי מקצועי ובטוח באמצעות רחפנים מתקדמים — למבנים, חזיתות ומערכות סולאריות בגובה.</p>
+        <div class="footer-social">
+          <a href="https://www.tdrone.co.il" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 18 18" fill="currentColor" aria-hidden="true"><path d="M10.3 17V9.8h2.4l.4-2.8h-2.8V5.2c0-.8.2-1.4 1.4-1.4h1.5V1.3C12.9 1.2 12.1 1.1 11.2 1.1 9 1.1 7.5 2.5 7.5 5v2H5.1v2.8h2.4V17h2.8z"/></svg></a>
+          <a href="https://www.tdrone.co.il" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><rect x="1.8" y="1.8" width="14.4" height="14.4" rx="4.4" stroke="currentColor" stroke-width="1.3"/><circle cx="9" cy="9" r="3.4" stroke="currentColor" stroke-width="1.3"/><circle cx="13.3" cy="4.7" r="1" fill="currentColor"/></svg></a>
+          <a href="https://www.tdrone.co.il" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 18 18" fill="currentColor" aria-hidden="true"><path d="M3.6 6.4h2.6V16H3.6V6.4zM4.9 2a1.5 1.5 0 110 3 1.5 1.5 0 010-3zM8.2 6.4h2.5v1.3h.1c.35-.66 1.2-1.35 2.5-1.35 2.65 0 3.15 1.75 3.15 4V16h-2.6v-4.3c0-1.03-.02-2.35-1.43-2.35-1.43 0-1.65 1.12-1.65 2.27V16H8.2V6.4z"/></svg></a>
+        </div>
+      </div>
+
+      <div>
+        <h4>שירותים</h4>
+        <ul>
+          <li><a href="#services">מבנים וחזיתות</a></li>
+          <li><a href="#services">מערכות סולאריות</a></li>
+          <li><a href="#services">תעשייה ותשתיות</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>חוקי</h4>
+        <ul>
+          <li><a href="https://www.tdrone.co.il/knowledge">מדיניות פרטיות</a></li>
+          <li><a href="https://www.tdrone.co.il/knowledge">תנאים ותקנון אתר</a></li>
+          <li><a href="https://www.tdrone.co.il/knowledge">אישורים ורגולציה</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>התקשרות</h4>
+        <ul>
+          <li><a href="tel:0506922729">050-6922-729</a></li>
+          <li><a href="mailto:doron@tdron.co.il">doron@tdron.co.il</a></li>
+          <li><a href="#contact">קבלו הצעת מחיר</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-base">
+      <span>כל הזכויות שמורות ל־TDrone 2026 ©</span>
+      <span>אישורי רת״א · הסמכת יצרן · ביטוח אווירי</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
